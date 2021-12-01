@@ -1,0 +1,47 @@
+body {
+    color: rgba(67, 114, 38, 1);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+
+.navbar {
+    background-color: rgba(67, 114, 38, 0.15);
+}
+
+.active {
+    background-color: rgba(67, 114, 38, 0.15);
+}
+
+li.nav-item {
+    margin-bottom: -25px;
+}
+
+.n-text {
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 10px;
+    color: rgba(67, 114, 38, 1);
+    font-size: 30px;
+}
+
+#buffer {
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(67, 114, 38, 0.15);
+}
+
+#name {
+    position: absolute;
+    height: 25vh;
+    padding-top: 1.5vh;
+    padding-left: 10%;
+    background-color: rgba(67, 114, 38, 0.15);
+}
