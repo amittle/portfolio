@@ -1,11 +1,24 @@
 function scrollCarousel(){
     $("#myCarousel").carousel("next");
+    
 }
 
-// $(window).scroll(function() {
-//     if($(window).scrollTop() + $(window).height() == $(document).height()) {
+
+
+// active_p = $(".carousel-item.active").find("p");
+
+// active_p.scroll(function() {
+//     console.log("scroll p")
+
+
+//     if(active_p.scrollTop() === active_p.prop("scrollHeight") - active_p.height()) {
+//         console.log("p bottom")
 //         scrollCarousel();
-//         window.scrollTo(0, $(document).height()-$(window).height()-75);
+//         $('#myCarousel').on('slid.bs.carousel', function () {
+//             active_p = $(".carousel-item.active").find("p")
+//             console.log(active_p.parent().parent().find("img").attr("src") + " in if")
+//         })
+//         console.log(active_p.parent().parent().find("img").attr("src"))
 //     }
 //  });
 

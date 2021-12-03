@@ -86,3 +86,15 @@ p {
     overflow: auto;
     font-size: 3vw;
 }
+
+
+.btn{
+    border-radius: 10px;
+    border-color: var(--green);
+    border-width: 5px;
+}
+
+.btn:hover {
+    background-color: var(--green-t);
+
+}
