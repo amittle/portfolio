@@ -8,12 +8,12 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-h1 {
+/* h1 {
     font-size: 40px;
-}
+} */
 
 h4 {
-    font-size: 20px;
+    /* font-size: 20px; */
     color: black;
 }
 
@@ -34,7 +34,7 @@ li.nav-item {
     padding-left: 40px;
     padding-right: 10px;
     color: var(--green);
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 #buffer {
