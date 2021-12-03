@@ -8,12 +8,8 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-/* h1 {
-    font-size: 40px;
-} */
 
 h4 {
-    /* font-size: 20px; */
     color: black;
 }
 
@@ -34,7 +30,6 @@ li.nav-item {
     padding-left: 40px;
     padding-right: 10px;
     color: var(--green);
-    /* font-size: 30px; */
 }
 
 #buffer {
@@ -55,6 +50,21 @@ li.nav-item {
     padding-left: 13%;
 }
 
+.header {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--green-t);
+    text-align: center;
+}
+
+i {
+    color: var(--green)
+}
+
+.btn-col {
+    flex: none;
+    align-items: center;
+}
 
 .carousel {
     margin-left: 20px;
@@ -84,7 +94,6 @@ p {
     max-width: 60vw;
     max-height: 40vw;
     overflow: auto;
-    font-size: 3vw;
 }
 
 
@@ -97,4 +106,10 @@ p {
 .btn:hover {
     background-color: var(--green-t);
 
+}
+
+/* About Page */
+
+#portrait {
+    height: 75vh;
 }

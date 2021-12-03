@@ -11,10 +11,15 @@
 
     <!-- My Scripts-->
     <script src = "../Assets/main.js" defer></script>
+    <script src = "../Assets/about.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
     <!-- Style-->
     <link rel="stylesheet" href="../Assets/styles.css">
@@ -57,14 +62,37 @@
         <div class = "row justify-content-end">
             <div id = "name" class = "col-6">
                 <h1>Alana Mittleman</h1> 
+                <h4>
+                    linkedin.com/in/alana-mittleman
+                </h4>
+                <h4>
+                    alanamittleman@gmail.com
+                </h4>
             </div>
         </div>
         <div id = "buffer"></div>
+    </div>
+    <br><br><br><br><br><br>
+    <div id = "about" class = "row">
+        <div class = "col"></div>
+        <div class = "col">
+            <img id = portrait src = "../Assets/images/portrait.png" alt = "Portait of Alana Mittleman, 2021 Spring Graduation">
+        </div>
+        <div class = "col-4">
+            <br><br><br><br><br>
+            <audio src = "../Assets/alana.m4a" id = "alana"></audio>
+            <p>
+                Hi! My name is <i class="fa fa-volume-up" onclick="playName()"></i> Alana.
+            </p>
+        </div>
+        <div class = "col-2"></div>
+
     </div>
  
 
     
 
   </body>
+  <!-- Icons from https://fontawesome.com/v5.15/icons?d=gallery&p=2-->
   <!-- Starter Templates from getbootstrap.com: bootstrap navbar and carousel -->
 </html>
