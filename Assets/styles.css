@@ -1,5 +1,10 @@
+:root {
+    --green: rgba(67, 114, 38, 1);
+    --green-t: rgba(67, 114, 38, 0.15);
+  }
+
 body {
-    color: rgba(67, 114, 38, 1);
+    color: var(--green);
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -13,11 +18,11 @@ h4 {
 }
 
 .navbar {
-    background-color: rgba(67, 114, 38, 0.15);
+    background-color: var(--green-t);
 }
 
 .active {
-    background-color: rgba(67, 114, 38, 0.15);
+    background-color: var(--green-t);
 }
 
 li.nav-item {
@@ -28,14 +33,14 @@ li.nav-item {
     box-sizing: border-box;
     padding-left: 40px;
     padding-right: 10px;
-    color: rgba(67, 114, 38, 1);
+    color: var(--green);
     font-size: 30px;
 }
 
 #buffer {
     height: 5vh;
     width: 100%;
-    background-color: rgba(67, 114, 38, 0.15);
+    background-color: var(--green-t);
 }
 
 #name {
@@ -43,5 +48,20 @@ li.nav-item {
     height: 25vh;
     padding-top: 1.5vh;
     padding-left: 10%;
-    background-color: rgba(67, 114, 38, 0.15);
+    background-color: var(--green-t);
+}
+
+.indent {
+    padding-left: 13%;
+}
+
+.carousel {
+    padding: 20px;
+    max-width: 400px;
+    
+    border-color: black;
+}
+
+img {
+    max-height: 400px;
 }
