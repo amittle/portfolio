@@ -59,7 +59,6 @@ li.nav-item {
 .carousel {
     margin-left: 20px;
     margin-bottom: 20px;
-    max-width: 600px;
 }
 
 .carousel-inner> .carousel-item.carousel-item-next ,
@@ -77,9 +76,10 @@ li.nav-item {
 }
 
 img {
-    max-height: 600px;
+    max-height: 50vw;
+    max-width: 50vw;
 }
 
-.inner-comp {
-    display: inline-block;
+p {
+    max-width: 50vw;
 }
