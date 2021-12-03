@@ -45,7 +45,7 @@ li.nav-item {
 
 #name {
     position: absolute;
-    height: 25vh;
+    height: 20vw;
     padding-top: 1.5vh;
     padding-left: 10%;
     background-color: var(--green-t);
@@ -55,13 +55,31 @@ li.nav-item {
     padding-left: 13%;
 }
 
+
 .carousel {
-    padding: 20px;
-    max-width: 400px;
-    
-    border-color: black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.carousel-inner> .carousel-item.carousel-item-next ,
+.carousel-inner > .carousel-item.active.carousel-item-right{ 
+    transform: translate3d(0, 100%, 0);
+}
+.carousel-inner > .carousel-item.carousel-item-prev ,
+.carousel-inner > .carousel-item.active.carousel-item-left{ 
+    transform: translate3d(0,-100%, 0);
+}
+.carousel-inner > .carousel-item.next.carousel-item-left ,
+.carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right ,
+.carousel-inner > .carousel-item.active{
+    transform:translate3d(0,0,0);
 }
 
 img {
-    max-height: 400px;
+    max-height: 600px;
+}
+
+.inner-comp {
+    display: inline-block;
 }
