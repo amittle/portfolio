@@ -1,5 +1,9 @@
 
 
+//Functions that move the carousel in either direction and then pause the carousel so that it
+//Does not continue scrolling.
+
+
 function carouselNext(){
     $("#myCarousel").carousel("next");
     $("#myCarousel").carousel("pause");
