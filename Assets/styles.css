@@ -13,6 +13,15 @@ h4 {
     color: black;
 }
 
+a {
+    text-decoration: none;
+    color: var(--green)
+}
+
+a:hover {
+    color: black;
+}
+
 .navbar {
     background-color: var(--green-t);
 }
@@ -86,8 +95,8 @@ i {
 }
 
 img {
-    max-height: 50vw;
-    max-width: 50vw;
+    max-height: 45vw;
+    max-width: 45vw;
 }
 
 p {
@@ -106,6 +115,10 @@ p {
 .btn:hover {
     background-color: var(--green-t);
 
+}
+
+#pdf_button {
+    margin-left: 3.5vw;
 }
 
 /* About Page */
